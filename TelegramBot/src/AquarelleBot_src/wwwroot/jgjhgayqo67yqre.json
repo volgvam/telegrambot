@@ -1,0 +1,29 @@
+[
+[
+ {
+   "Id": 1,
+   "PhoneStationary": "1002",
+   "PhoneHandheld": null,
+   "PhoneMobile": "(999) 999-9999",
+   "Service": "Директор",
+   "FirstName": "Иванов",
+   "MiddleName": "Иван",
+   "LastName": "Иванович",
+   "Organization": "Immochan (Иммошан)",
+   "email": "xxx@xxx.ru",
+   "Birthday": "27.01.2015"
+ },
+ {
+   "Id": 2,
+   "PhoneStationary": "1011",
+   "PhoneHandheld": null,
+   "PhoneMobile": "(888) 888-8888",
+   "Service": "Ассистент дирекции",
+   "FirstName": "Анжела",
+   "MiddleName": "",
+   "LastName": "Fy;tkjdyf",
+   "Organization": "Immochan (Иммошан)",
+   "email": "aaaa@aaaaa.ru",
+   "Birthday": "19.10.2005"
+ }
+]

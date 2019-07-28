@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C7B9BBE6-AC37-410E-99FA-B17BC8E69D74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FCB6D0DD-ABB2-4823-B587-CD89F07B4EEB}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DanceBot", "src\DanceBot\DanceBot.xproj", "{70BA6C6B-3DB0-4E56-A24A-FB0C4F1808F2}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AquarelleBot", "src\AquarelleBot\AquarelleBot.xproj", "{02BAF47E-8BA9-402E-9388-B3424277D903}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70BA6C6B-3DB0-4E56-A24A-FB0C4F1808F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70BA6C6B-3DB0-4E56-A24A-FB0C4F1808F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70BA6C6B-3DB0-4E56-A24A-FB0C4F1808F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70BA6C6B-3DB0-4E56-A24A-FB0C4F1808F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02BAF47E-8BA9-402E-9388-B3424277D903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02BAF47E-8BA9-402E-9388-B3424277D903}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02BAF47E-8BA9-402E-9388-B3424277D903}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02BAF47E-8BA9-402E-9388-B3424277D903}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{70BA6C6B-3DB0-4E56-A24A-FB0C4F1808F2} = {C7B9BBE6-AC37-410E-99FA-B17BC8E69D74}
+		{02BAF47E-8BA9-402E-9388-B3424277D903} = {C7B9BBE6-AC37-410E-99FA-B17BC8E69D74}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,57 @@
+version: '3.1'
+
+services:
+
+
+  telegramdb:
+    image: postgres:9.5
+    container_name: telegramdb
+    environment:
+      - POSTGRES_USER=telegram
+      - POSTGRES_PASSWORD=0B%BbdHb3&VA
+    volumes:
+      - /srv/telegram/data/postgres:/var/lib/postgresql/data
+#    networks:
+#      - db1
+    networks:
+     - internal
+    labels:
+     - traefik.enable=false
+    expose:
+      - "5432"
+    restart: always
+
+
+  aquarellebot:
+#    image: username/aquarelle_bot
+    container_name: aquarelle_bot
+    build:
+      context: TelegramBot/src/AquarelleBot/.
+      dockerfile: Dockerfile
+    expose:
+      - "80"
+#    logging:    
+#      driver: none
+    restart: always
+    labels:
+      - traefik.enable=true
+      - traefik.backend=aquarellebot
+      - traefik.frontend.rule=Host:xxxxxx.ru
+      - traefik.docker.network=proxy
+      - traefik.port=80
+    networks:
+      - internal
+      - proxy
+    volumes:
+      - /root/dance-aquarelle/volumes/aquarelle_bot/wwwroot:/app/wwwroot
+      
+      
+
+
+
+
+networks:
+    proxy:
+        external: true
+    internal:
+        external: false

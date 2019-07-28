@@ -1,0 +1,9 @@
+C:\Users\Vadim\Dropbox\Private\Мои документы\Project\Visual Studio\TelegramBot\src\AquarelleBot\bin\Release\netcoreapp1.0\AquarelleBot.deps.json
+C:\Users\Vadim\Dropbox\Private\Мои документы\Project\Visual Studio\TelegramBot\src\AquarelleBot\bin\Release\netcoreapp1.0\AquarelleBot.runtimeconfig.json
+C:\Users\Vadim\Dropbox\Private\Мои документы\Project\Visual Studio\TelegramBot\src\AquarelleBot\bin\Release\netcoreapp1.0\AquarelleBot.runtimeconfig.dev.json
+C:\Users\Vadim\Dropbox\Private\Мои документы\Project\Visual Studio\TelegramBot\src\AquarelleBot\bin\Release\netcoreapp1.0\AquarelleBot.dll
+C:\Users\Vadim\Dropbox\Private\Мои документы\Project\Visual Studio\TelegramBot\src\AquarelleBot\bin\Release\netcoreapp1.0\AquarelleBot.pdb
+C:\Users\Vadim\Dropbox\Private\Мои документы\Project\Visual Studio\TelegramBot\src\AquarelleBot\obj\Release\netcoreapp1.0\AquarelleBot.csprojResolveAssemblyReference.cache
+C:\Users\Vadim\Dropbox\Private\Мои документы\Project\Visual Studio\TelegramBot\src\AquarelleBot\obj\Release\netcoreapp1.0\AquarelleBot.AssemblyInfo.cs
+C:\Users\Vadim\Dropbox\Private\Мои документы\Project\Visual Studio\TelegramBot\src\AquarelleBot\obj\Release\netcoreapp1.0\AquarelleBot.dll
+C:\Users\Vadim\Dropbox\Private\Мои документы\Project\Visual Studio\TelegramBot\src\AquarelleBot\obj\Release\netcoreapp1.0\AquarelleBot.pdb
